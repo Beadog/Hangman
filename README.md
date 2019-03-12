@@ -1,15 +1,15 @@
 # Hangman
 Hangman game in Python using turtle
 
-import random
-import turtle
+    import random
+    import turtle
 
 
-def main():
-    listOfWords = ["yoga", "chair", "jump", "towel", "heat", "fuzz", "rocks",
-               "python", "asana", "daisy", "says", "said", "test",
-               "today", "clock", "hello", "pizza", "jumpy", "knives",
-               "ninjas", "juicy", "jumble", "hijack", "pyjama", "jumped"]
+    def main():
+        listOfWords = ["yoga", "chair", "jump", "towel", "heat", "fuzz", "rocks",
+                   "python", "asana", "daisy", "says", "said", "test",
+                   "today", "clock", "hello", "pizza", "jumpy", "knives",
+                   "ninjas", "juicy", "jumble", "hijack", "pyjama", "jumped"]
 
     # draw hanger upon startup
     turtle.penup()
@@ -147,4 +147,4 @@ def main():
             print("Thanks for playing!")
 
 
-main()
+    main()
